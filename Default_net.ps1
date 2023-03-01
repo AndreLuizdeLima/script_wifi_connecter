@@ -1,10 +1,9 @@
 ﻿Write-Host -B red "conectando a rede default"
 
-$NAME = 'LC.LIMA'
-$AUTHENTICATION = 'WPA2PSK'
+$NAME = 'nome da rede'
+$AUTHENTICATION = 'tipo de autenticaçãa'
 $ENCRYPTION = 'CCMP'
-#$PASSWORD = 'VamosConversar'
-$PASSWORD = 'minhacasa'
+$PASSWORD = 'senha'
 
 $NEWPROFILE = @'
 <?xml version="1.0"?>
